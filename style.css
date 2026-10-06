@@ -1,0 +1,370 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+header {
+    width: 100vw;
+    background-color: #182235;
+    height: 230px;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    color: #38BDF8;
+    font-size: 2.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+header p {
+    color: white;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav {
+    padding-top: 20px;
+}
+
+header nav a {
+    color: white;
+    background-color: #30394A;
+    padding: 13px 25px;
+    border-radius: 30px;
+    margin: 0px 10px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header nav a:hover {
+    background-color: #38BDF8;
+}
+
+body {
+    background-color: #EEF2F6;
+}
+
+main {
+    width: 68vw;
+    margin: auto;
+}
+
+.about {
+    background-color: white;
+    border: 1px solid rgb(235, 227, 227);
+    border-radius: 20px;
+}
+
+.about h2 {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 1.8rem;
+    padding: 20px 40px;
+}
+
+.about h2 span {
+    font-weight: 900;
+    font-size: 3rem;
+    color: #0284C7;
+}
+
+.about figure {
+    text-align: center;
+}
+
+.about img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 4px solid #0284C7;
+    transition: all .15s linear;
+}
+
+.about img:hover {
+    width: 220px;
+    height: 220px;
+}
+
+.about figcaption {
+    color: #64748B;
+    font-family: fantasy;
+    padding: 30px;
+}
+
+.about p {
+    background-color: #eceff2;
+    padding: 10px 40px;
+    color: rgb(52, 48, 48);
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+
+}
+
+.project {
+    background-color: white;
+    border: 1px solid rgb(235, 227, 227);
+    border-radius: 10px;
+    margin: 40px 0;
+}
+
+.project span {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #0284C7;
+    font-family: sans-serif;
+}
+
+.project h3 {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 1.8rem;
+    padding: 20px 40px;
+}
+
+#p1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#p1 article {
+    background-color: #F8FAFC;
+    border: 1px solid rgb(235, 227, 227);
+    border-radius: 10px;
+    width: 370px;
+    height: 150px;
+    padding: 20px;
+}
+
+#p1 article:hover {
+    margin-top: 10px;
+}
+
+#p1 article h4 {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: 800;
+
+}
+
+#p1 article p {
+    color: #64748B;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 20px;
+}
+
+#p1 article a {
+    color: white;
+    background-color: #0284C7;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 10px;
+}
+
+#p1 article a:hover {
+    background-color: #38BDF8;
+}
+
+#hi {
+    position: relative;
+    top: 10px;
+}
+
+#hii {
+    position: relative;
+    top: 20px;
+}
+
+#p2 {
+    border: 1px solid rgb(235, 227, 227);
+    background-color: #F1F5F9;
+    margin: 30px 40px;
+    border-radius: 10px;
+}
+
+#p2 h4 {
+    font-size: 1.2rem;
+    color: #33418F;
+    padding: 20px;
+}
+
+#p2 ul {
+    display: flex;
+    gap: 20px;
+    padding: 0 20px 20px;
+}
+
+li {
+    list-style-type: none;
+    color: #0369A4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: #E0F2FE;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.intro {
+    background-color: white;
+    border: 1px solid rgb(235, 227, 227);
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.intro span {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #0284C7;
+    font-family: sans-serif;
+}
+
+.intro h3 {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 1.8rem;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    gap: 270px;
+}
+
+.intro video {
+    border: 5px solid rgb(235, 227, 227);
+    border-radius: 10px;
+    margin-left: 175px;
+    width: 59%;
+    height: 480px;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #141D30;
+    border-radius: 10px;
+    width: 68vw;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+footer span {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #0284C7;
+    font-family: sans-serif;
+}
+
+footer h3 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 1.8rem;
+    padding: 20px 40px;
+}
+
+footer p:first-of-type {
+    color: white;
+    font-size: 1.2rem;
+    padding: 0 40px;
+}
+
+footer p:last-of-type {
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 40px 30px;
+}
+
+footer p a {
+    color: #38BDF8;
+}
+
+footer form {
+    color: white;
+    padding: 0 40px;
+    font-size: 1.2rem;
+}
+
+footer form input {
+    width: 550px;
+    height: 48px;
+    margin-top: 10px;
+    background-color: #1E293B;
+    border: 1px solid rgb(66, 63, 63);
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1.1rem;
+}
+
+footer form input:focus,
+textarea:focus {
+    outline: none;
+    border: 2px solid #0284C7;
+}
+
+footer form textarea {
+    width: 550px;
+    height: 150px;
+    margin-top: 10px;
+    background-color: #1E293B;
+    border: 1px solid rgb(66, 63, 63);
+    border-radius: 5px;
+    padding:10px 20px;
+    font-size: 1rem;
+    color: #5C7575;
+}
+
+footer form button {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 10px 20px;
+    background-color: #0284C7;
+    border-radius: 5px;
+    border: none;
+}
+
+footer form button:hover {
+    background-color: #2b5783;
+}
+
+hr {
+    width: 91%;
+    margin: auto;
+    opacity: 30%;
+}
+
+footer div {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+footer div p:first-child {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-family: serif;
+    color: #64748B;
+}
+
+footer div p:last-child {
+    font-size: 1rem;
+}
